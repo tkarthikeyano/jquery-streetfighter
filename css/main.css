@@ -1,0 +1,67 @@
+body
+{
+	background-color: black;
+}
+
+.main {
+	background: white;
+	margin-top: 110px;
+	min-width: 1200px;
+	padding-left: 100px;
+	min-height: 500px;
+	position: relative;
+	}
+
+#Container
+{
+	background-color: white;
+	padding-left: 50px;	
+}
+
+.main #Container
+{
+	float: left;
+}
+
+.Hadouken, .Ryu-Cool, .Ryu-Ready, .Ryu-Still, .Ryu-Fire {
+	background-repeat: no-repeat;
+}
+
+.Image-Display
+{	float: left;
+	position: absolute;
+	width: 500px;
+}
+
+.Ryu-Fire, .Ryu-Ready
+{	display: none;
+}
+
+.Hadouken
+{
+padding-top: 10em;
+padding-left: 32em;
+display: none;
+position: absolute;
+border: 1px solid red;
+}
+
+.Text-Display{
+	position: absolute;
+	left: 650px;
+	height: 425px;
+	width: 600px;
+	padding-top: 75px;
+	font-style: italic;
+}
+
+.Text-Display p {
+	width: 50%;
+	color: black;
+	font-size: 24px;
+	line-height: 45px;
+}
+
+.Text-Display p + p {
+	margin-left: 275px;
+}
